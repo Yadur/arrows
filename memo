@@ -1,0 +1,6 @@
+while True:
+    try:
+        player1 = str(raw_input("Please enter your name: "))
+        break
+    except ValueError:
+        print "Try again!..."
